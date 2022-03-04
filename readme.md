@@ -12,13 +12,13 @@ a new word will be chosen for the potential answer. Below is a sample game:
 ```sh
 user@computer:~/...$ python src/main.py
 Guess 1: crane
-🟨 🟨 🟨 ⬛ ⬛
+🟨🟨🟨⬛⬛
 Guess 2: farce
-⬛ 🟩 🟨 🟨 ⬛
+⬛🟩🟨🟨⬛
 Guess 3: macer  
-🟩 🟩 🟩 ⬛ 🟨
+🟩🟩🟩⬛🟨
 Guess 4: macro
-🟩 🟩 🟩 🟩 🟩
+🟩🟩🟩🟩🟩
 Solved 4/6
 The word was macro
 user@computer:~/...$

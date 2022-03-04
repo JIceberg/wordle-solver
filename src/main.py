@@ -11,8 +11,8 @@ for i in range(6):
         print(f'Guess {i+1}: ', end='')
         word = str(input())
         result = game.guess(word)
-    print(' '.join(result))
-    cnt = np.sum([c == '\U0001f7e9' for c in result])
+    print(game.result_as_boxes(result))
+    cnt = np.sum([c == 'Y' for c in result])
     if cnt == 5:
         print(f'Solved {i+1}/6')
         break
