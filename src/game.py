@@ -2,6 +2,19 @@ from words import answers, words
 import numpy as np
 from collections import Counter
 
+def result_as_int(game_res):
+    res = 0
+    for idx in range(len(game_res)):
+        val, c = 0, game_res[idx]
+        if c == 'Y':
+            val = 2
+        elif c == 'M':
+            val = 1
+        else:
+            val = 0
+        res += val * (3 ** idx)
+    return res
+
 class Game:
 
     def __init__(self, solution = None):

@@ -23,3 +23,8 @@ Solved 4/6
 The word was macro
 user@computer:~/...$
 ```
+
+## Using the Solver
+
+Run `python src/solver.py` and you can use the solver to play Wordle. Enter the pattern using
+'Y' for green, 'M' for yellow, and 'N' for nothing. So, for example '🟩🟩🟩⬛🟨' would be 'YYYNM'.
